@@ -1,0 +1,112 @@
+.stage-enterprise-central{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.cadastrar_projeto{
+  display: flex;
+  flex-direction: column;
+
+  padding:0px 20px ;
+  padding-top: 60px;
+  padding-bottom: 80px;
+
+  margin-top: 20px;
+
+  background-color: rgba(0, 0, 0, 0.582);
+
+  border-radius: 10px;
+  
+  height: 100%;
+}
+
+
+.cadastrar_projeto h1{
+  margin-bottom: 30px;
+}
+
+.cadastrar_projeto_inputs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.cadastrar_projeto_inputs input{
+  padding: 10px;
+  margin:5px 10px;
+
+  width: 90%;
+
+  border: none;
+
+  border-radius: 10px;
+}
+
+.projetos_content{
+  background-color: rgba(0, 0, 0, 0.568);
+  padding: 20px 40px;
+  margin: 20px;
+  border-radius: 10px;
+
+  width: 300px;
+  height: 150px;
+}
+
+.projetos_content p{
+  padding-bottom: 10px;
+}
+
+.content_enterprise{
+  display: flex;
+  flex-direction: row;
+
+  margin: 5%;
+}
+
+.content_enterprise ul{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  list-style-type: none;
+}
+
+.interessados{
+  position: absolute;
+  align-self: center;
+
+  min-width: 400px;
+  min-height: 200px;
+  height: fit-content;
+
+  padding: 50px;
+  background-color: rgba(0, 134, 212, 0.952);
+
+  border-radius: 10px;
+
+  z-index: 1;
+}
+
+.interessados ul{
+  display: flex;
+  flex-direction: row;
+
+  list-style-type: none;
+}
+
+.interessados li{
+  padding: 0px 20px;
+}
+
+.hidden{
+  display: none;
+}

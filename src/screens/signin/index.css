@@ -1,0 +1,76 @@
+
+.signin{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch_section{
+  display: flex;
+  flex-direction: row;
+}
+
+.switch_section h2{
+  padding-left: 10px;
+}
+
+.projeto_social_section{
+  margin-bottom: 50px;
+  font-size: 34px;
+}
+
+.sec_login h1{
+  margin: 0;
+}
+
+.sec_login div{
+  display: flex;
+  flex-direction: column;
+}
+
+.sec_login input{
+  margin: 10px 0px;
+  padding: 10px 10px;
+  font-size: 25px;
+
+  opacity: 0.8;
+  background-color: white;
+  color: black;
+
+  border: none;
+  border-radius: 5px;
+
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.75);
+}
+
+.button_login{
+  margin: 10px 0px;
+  padding: 10px 0;
+  font-size: 25px;
+
+  background-color: rgb(75, 177, 75);
+  color: #f5fffb;
+
+  text-decoration: none;
+  text-align: center;
+
+  border-radius: 5px;
+  border: none;
+
+  transition: .7s;
+
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.75);
+}
+
+.button_login:hover{
+  background-color:  rgb(75, 177, 75);
+  color: white;
+}
+.nome_projeto{
+  color: white;
+}

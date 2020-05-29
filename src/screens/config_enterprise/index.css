@@ -1,0 +1,81 @@
+.header_config_enterprise{
+  position: relative;
+  
+  margin: 20px;
+  top: -50px;
+}
+
+.config_enterprise{
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+.content_config_enterprise{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.493);
+  
+  width: 70%;
+  height: 60%;
+
+  border-radius: 10px;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttons_config_enterprise{
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons_config_enterprise button{
+  margin: 10px;
+}
+
+.sections_input_config_enterprise{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.sections_input_config_enterprise input{
+  padding: 10px;
+  margin: 10px 20px;
+
+  border-radius: 10px;
+  border: none;
+}
+
+
+
+.input_pessoal_config_enterprise{
+  display: flex;
+  flex-direction: column;
+}
+
+.input_address_config_enterprise{
+  display: flex;
+  flex-direction: column;
+}
+
+.delete{
+  background-color: #e02041;
+}
+
+.delete:hover{
+  color: #e02041;
+}
+
+.hidden{
+  display: none;
+}
